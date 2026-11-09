@@ -1,0 +1,16 @@
+{
+  "id": "./",
+  "name": "Invitación Axxel Jhael · Nivel 10",
+  "short_name": "Axxel 10",
+  "description": "Invitación a la partida de torta de Axxel Jhael.",
+  "lang": "es-CO",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#070811",
+  "theme_color": "#080911",
+  "icons": [
+    {"src":"icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}
+  ]
+}
