@@ -574,7 +574,7 @@
             id="maps"
             target="_blank"
             rel="noopener"
-            href="https://www.google.com/maps/@6.9729948,-73.0525552,19.25z/data=!4m4!7m3!1m1!1s109604736009572469531!2e2?entry=ttu&g_ep=EgoyMDI2MTEwNC4wIKXMDSoASAFQAw%3D%3D"
+            href="https://www.google.com/maps/@6.9730774,-73.0519577,954a,75y,58.15h,93.54t/am=t/data=!3m7!1e1!3m5!1sdqFKeD8VADGEg2R_wAwGZg!2e0!6shttps:%2F%2Fstreetviewpixels-pa.clients6.google.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-3.5408244084091365%26panoid%3DdqFKeD8VADGEg2R_wAwGZg%26yaw%3D58.14638071759785!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MTEwNC4wIKXMDSoASAFQAw%3D%3D"
             >🧭 Cómo llegar</a
           >
           <button class="btn secondary" id="calendar" type="button">
@@ -593,7 +593,6 @@
         </p>
       </section>
 
-
       <button class="btn install" id="install" type="button">
         ⬇️ Instalar invitación
       </button>
@@ -602,19 +601,19 @@
       </div>
     </main>
 
-      <footer class="footer-axxel">
-        <div class="footer-heart">♥</div>
+    <footer class="footer-axxel">
+      <div class="footer-heart">♥</div>
 
-        <p class="footer-message">
-          Hecho con <span class="love">amor</span> por tu papá
-        </p>
+      <p class="footer-message">
+        Hecho con <span class="love">amor</span> por tu papá
+      </p>
 
-        <h3 class="footer-signature">Marbin Alarcón</h3>
+      <h3 class="footer-signature">Marbin Alarcón</h3>
 
-        <span class="footer-decoration">
-          ✦ Siempre estaré orgulloso de ti ✦
-        </span>
-      </footer>
+      <span class="footer-decoration">
+        ✦ Siempre estaré orgulloso de ti ✦
+      </span>
+    </footer>
 
     <script>
       // Cuenta regresiva a la hora local de Piedecuesta (Colombia).
@@ -646,11 +645,9 @@
       setInterval(updateCountdown, 1000);
 
       // Abrir ruta hasta la dirección de la invitación.
-      const address =
-        "Calle 22 # 1W-33, Barrio Portal del Valle, Piedecuesta, Santander, Colombia";
+      const coords = "6.9730774,-73.0519577";
       document.getElementById("maps").href =
-        "https://www.google.com/maps/dir/?api=1&destination=" +
-        encodeURIComponent(address);
+        "https://www.google.com/maps/dir/?api=1&destination=" + coords;
 
       // Crear archivo de calendario .ics.
       document.getElementById("calendar").addEventListener("click", () => {
